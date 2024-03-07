@@ -1,0 +1,14 @@
+{
+  "name": "logo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "icon-gen --input ./logo.png --output ./build"
+  },
+  "devDependencies": {
+    "electron-icon-builder": "^2.0.1"
+  },
+  "dependencies": {
+    "icon-gen": "^4.0.0"
+  }
+}
